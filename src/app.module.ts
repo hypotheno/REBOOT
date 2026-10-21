@@ -7,6 +7,7 @@ import { ExercisesModule } from './exercises/exercises.module';
 import { WorkoutPlansModule } from './workout-plans/workout-plans.module';
 import { PlanExercisesModule } from './plan-exercises/plan-exercises.module';
 import { ActivityLogsModule } from './activity-logs/activity-logs.module';
+import { AppController } from './app.controller';
 
 @Module({
   imports: [
@@ -19,5 +20,6 @@ import { ActivityLogsModule } from './activity-logs/activity-logs.module';
     PlanExercisesModule,
     ActivityLogsModule,
   ],
+  controllers: [AppController],
 })
 export class AppModule {}
