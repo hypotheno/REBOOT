@@ -7,7 +7,7 @@ REBOOT is a RESTful backend API for a fitness tracking app. Users can register, 
 
 ## 🔗 Live API
 
-**Base URL:** `https://<REBOOT>.onrender.com`
+**Base URL:** `https://reboot-ehti.onrender.com`
 
 > Note: Hosted on Render's free tier, so the first request may take 30–60 seconds to wake up the server.
 
